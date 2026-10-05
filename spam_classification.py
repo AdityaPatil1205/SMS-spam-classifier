@@ -58,7 +58,6 @@ import nltk
 
 df['chars']=df['v2'].apply(len)
 
-df.head()
 
 nltk.download('punkt_tab')
 
